@@ -1,14 +1,14 @@
 import React from 'react';
 import { Image, View } from 'react-native';
 import { Text, Input, Button, Icon } from 'react-native-elements';
-import { css } from './assests/css/css';
+import { css } from '../../assests/css/css';
 
 export default function App() {
   return (
     <View style={css.container}>
       <View style={css.cabecalho}>
         <Text h1>IAB</Text>
-        <Image style={css.logo} source={require('./assests/img/logo.png')} />
+        <Image style={css.logo} source={require('../../assests/img/logo.png')} />
       </View>
       <View style={css.inputs}>
         <Input
